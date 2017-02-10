@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+body{
+	margin:0;
+	font-family: 'Quicksand', "sans-serif"
+}
+.homeContainer , .dashContainer{
+	display: -webkit-flex;
+    -webkit-flex-direction: column;
+    height: 100%;
+    background:#fff;
+    margin: 0;
+    position: relative;
+}
+
+a {
+	text-decoration: none; 
+	color: white; 
+}
+
+.homeHeader{ 
+-webkit-flex: 0.6; 
+	background: #7accc8;
+	color: white;
+	 position: relative;
+	 display: inline-block;
+	 text-align: center;
+	 width: 100%;
+ }
+
+ .dashHeader , .groupsHeader, .meetpointHeader, .groupdashHeader, .memviewHeader{
+	height: 100px;
+	background: #7accc8;
+	color: white;
+	position: relative;
+
+ }
+
+.homeHeader > .logo > img {
+	max-width: 50%;
+}
+.homeHeader > .logo  {
+	margin-top: 50px;
+	
+}
+
+.homeBody > form > ul > li {
+	padding: 10px 0px;
+	border-bottom: 1px solid #e05363;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+.homeBody > form > ul {
+	padding: 0px 50px;
+}
+
+
+
+.homeBody > form > ul > li{
+	list-style-type: none;
+}
+.memviewBody > ul > li{
+	list-style-type: none;
+	display: inline;
+}
+
+.homeBody > form > ul > li > input {
+	border:none;
+	width: 100%;
+}
+
+.homeBody > form > ul > li:last-child {
+	border-bottom: none;
+	padding-top: 20px;
+}
+
+#submit-button {
+width: 120px;
+height: 40px;
+border-radius: 20px;
+color: white; 
+background: #e05363;
+border: none;
+}
+
+#sign-up {
+	text-align: center;
+}
+#sign-up b a{
+	color: blue;
+}
+
+#feedback{
+	text-align: center;
+	color: red;
+}
+
+.profile {
+	height: 70px; 
+	width: 70px;
+	background: grey;
+	border-radius: 100%;
+	position: absolute;
+	right: 10px; 
+	top:15px;
+}
+
+.profile img{
+	width: 100%;
+	border-radius: 100%;
+}
+
+.name {
+	position: absolute;
+	position: left;
+	top: 10px;
+	left: 10px;
+	font-size: 25px;
+}
+
+.search {
+	text-align: center;
+	margin: 15px auto;
+	width: 70%;
+}
+
+.search > input {
+	width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 5px 15px;
+    border: 1px solid #e05363;
+    border-radius: 60px;
+    font-size: 20px;
+    color: #666;
+}
+/*.profile > p {
+	font-size: 30px; 
+	padding: 2px;
+	text-align: center;
+	padding-bottom: 30px;
+}*/
+
+.search > ::-webkit-input-placeholder {
+    color: #666;
+    font-size: 20px;
+}
+
+*:focus {outline: none;}
+
+.searchResults {
+	width: 70%;
+	margin: 30px auto;
+}
+.searchResults ul{
+	padding: 0;
+}
+.searchResults > ul > li { 
+	list-style-type: none;
+	font-size: 20px; 
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+}
+.searchResults ul li a{
+	color: #666;
+}
+
+ .groupsHeader > p, .groupdashHeader > p, .memviewHeader > p {
+ 	font-size: 40px;
+ 	padding-top: 25px;
+ 	text-align: center;
+ 	margin: 0 auto;
+ }
+ .meetpointHeader > p{
+ 	text-align: center;
+ 	font-size: 40px;
+ 	padding-top: 25px;
+ 	margin: 0;
+ }
+
+ .joinCreate {
+ 	width: 200px;
+ 	height: 200px; 
+ 	border-radius: 150px; 
+ 	background: #e05363;
+ 	text-align: center;
+	vertical-align: middle;
+	line-height: 120px;
+	font-weight: bold;
+	font-size: 30px;
+	color:white;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+ }
+.row{
+	margin: 0px -15px;
+}
+ .meetpointBody {
+ 	width: 100%;
+	line-height: 90px;
+	padding: 15px 0px;
+	box-sizing: border-box;
+	display:  table;
+ }
+ .meetpointBody .col-xs-6{
+ 	text-align: center;
+	width: 50%;
+	padding: 15px;
+	box-sizing: border-box;
+	display: inline-table;
+ }
+ .meetpointBody .meetups{
+ 	background: #666;
+ 	display: block;
+ 	overflow-x: hidden;
+ }
+
+ .groupdashBody{
+ 	position: relative;
+ }
+.view, .chat, .exit {
+	height: 80px; 
+	width: 300px; 
+	background: #e05363;
+	color: white;
+	border-radius: 100px;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	line-height:60px;
+	margin-left: 60px;
+}
+
+.memviewBody > ul > li > img {
+	width: 60px;
+	height: 60px;
+	display: inline;
+	border-radius: 30px;
+	float: left;
+}
+
+.memviewBody > ul > li {
+	border-bottom: 1px solid #666;
+}
+.memviewBody > ul > li > p {
+	vertical-align: center;
+	line-height: 60px;
+	margin-left: 70px;
+	font-size: 30px;
+
+}
+
+
